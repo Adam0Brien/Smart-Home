@@ -4,7 +4,7 @@ IoT-Standards-and-protocols project
 
 Assignment brief 
 
-https://tutors-svelte.netlify.app/#/talk/iot-protocols-2022.netlify.app/topic-000-Assessments/talk-1/assignment.pdf
+<p> https://tutors-svelte.netlify.app/#/talk/iot-protocols-2022.netlify.app/topic-000-Assessments/talk-1/assignment.pdf </p>
 
 
 
