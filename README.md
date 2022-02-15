@@ -2,15 +2,14 @@
 IoT-Standards-and-protocols project
 
 
-Assignment brief 
-
 <a class ="item" target="_blank"  href="https://tutors-svelte.netlify.app/#/talk/iot-protocols-2022.netlify.app/topic-000-Assessments/talk-1/assignment.pdf"> Assignment Brief </p>
 
+<br>
 
+<br>
 
-Mock website for project
+<a class ="item" target="_blank"  href="https://iot-standards-and-protocols-project.glitch.me/"> Mock website for project </p>
 
-https://iot-standards-and-protocols-project.glitch.me/
 
 
 
