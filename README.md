@@ -6,8 +6,6 @@ IoT-Standards-and-protocols project
 
 <br>
 
-<br>
-
 <a class ="item" target="_blank"  href="https://iot-standards-and-protocols-project.glitch.me/"> Mock website for project </p>
 
 
