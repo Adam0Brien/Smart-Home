@@ -15,7 +15,7 @@ IoT-Standards-and-protocols project
 <a class ="item" target="_blank"  href="https://iot-standards-and-protocols-project.glitch.me/"> Mock website for project </p>
 
 
-<p align="center">
+<p align="center" Wiring Diagram >
 <img src="images/IotStandards and protocols_bb.jpg" alt="Wiring Diagram" style="width:500px;height:600px;" class="center">
 </p>
 
