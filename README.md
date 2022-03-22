@@ -8,6 +8,6 @@ IoT-Standards-and-protocols project
 
 
 
-<img src="images/IotStandards and protocols_bb.jpg" alt="Wiring Diagram" style="width:500px;height:600px;">
+<img src="images/IotStandards and protocols_bb.jpg" alt="Wiring Diagram" style="width:500px;height:600px;" class="center">
 
 
