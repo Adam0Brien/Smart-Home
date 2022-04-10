@@ -22,7 +22,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 GPIO_PIN = 4
 GPIO.setup(GPIO_PIN, GPIO.OUT)
-motor = LED(17)
+
 
 lightURL =    'https://api.thingspeak.com/update?api_key=08KLEMNHHRDEECV9&field2='
 tempURL = 'https://api.thingspeak.com/update?api_key=08KLEMNHHRDEECV9&field1='
