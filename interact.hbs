@@ -1,0 +1,134 @@
+{{> menu id="dashboard"}}
+
+<section class="ui center aligned middle aligned inverted segment">
+
+  
+  <p1>
+  Welcome to the dashboard,<br>Here you will see all the sensor data do do with the smart house</p1>
+  <br><br><br>
+  
+  
+  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1685572/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+<br>
+  <display>
+Most Recent Temprature reading:    
+<div id="temp"></div>
+</display>
+  <head>
+<title>Temperature</title>
+<script type="text/javascript">
+                    function updateTempValue() {
+                    var http = null;
+                      
+                      
+                          if (window.XMLHttpRequest) {
+                              http = new XMLHttpRequest();
+                              } else if (window.ActiveXObject) {
+                              http = new ActiveXObject("Microsoft.XMLHTTP");
+                              }
+                      
+                      
+                          if (http != null) {
+                              http.open("GET", "https://api.thingspeak.com/channels/1685572/fields/1/last.html", true);
+                              http.onreadystatechange = change;
+                              http.send(null);
+                          }
+                          function change() {
+                              if (http.readyState == 4) {
+                              document.getElementById("temp").innerHTML =
+                              http.responseText;
+                              }
+                            }
+                    }
+                   
+    
+    
+                    function updateLightValue() {
+                                      var http = null;
+
+
+                                      if (window.XMLHttpRequest) {
+                                          http = new XMLHttpRequest();
+                                          } else if (window.ActiveXObject) {
+                                          http = new ActiveXObject("Microsoft.XMLHTTP");
+                                          }
+
+
+                                      if (http != null) {
+                                          http.open("GET", "https://api.thingspeak.com/channels/1685572/fields/2/last.html", true);
+                                          http.onreadystatechange = change2;
+                                          http.send(null);
+                                      }
+                                      function change2() {
+                                          if (http.readyState == 4) {
+                                          document.getElementById("light").innerHTML =
+                                          http.responseText;
+                                          }
+                                        }
+                                      }
+  
+  
+ 
+                        function updateDoorValue() {
+                                          var http = null;
+
+
+                                          if (window.XMLHttpRequest) {
+                                               http = new XMLHttpRequest();
+                                               } else if (window.ActiveXObject) {
+                                               http = new ActiveXObject("Microsoft.XMLHTTP");
+                                               }
+
+
+                                           if (http != null) {
+                                               http.open("GET", "https://api.thingspeak.com/channels/1685572/fields/3/last.html", true);
+                                               http.onreadystatechange = change3;
+                                               http.send(null);
+                                           }
+                                           function change3() {
+                                              if (http.readyState == 4) {
+                                               document.getElementById("door").innerHTML =
+                                               http.responseText;
+                                               }
+                                             }
+                                          }
+  
+                        function loadAllData(){
+                          updateTempValue;
+                          updateLightValue;
+                          updateDoorValue;
+                          
+                        }
+  
+                       
+                                          window.onload=loadAllData;
+                                          window.onload=updateTempValue;
+                                         
+    </script>
+</head>
+
+  <br><br><br>
+  
+  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1685572/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+   
+  <br>
+  <display>
+Most Recent Light reading:    
+<div id="light"></div>
+</display>
+  <br><br><br>
+  
+  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1685572/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+   
+  <br>
+  <display>
+Most Recent Door reading:    
+<div id="door"></div>
+</display>
+  
+  <br><br><br><br><br><br>
+
+
+  
+  
+</section>
