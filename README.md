@@ -12,3 +12,9 @@ IoT-Standards-and-protocols project
 <img src="images/IotStandards and protocols_bb.jpg" alt="Wiring Diagram" style="width:500px;height:600px;" class="center">
 </p>
 
+
+<p>
+  I also implemented a way to run the python script on startup so i dont need to SSH into the pi everytime i wish to present the Smart house
+  Heres the link to the tutorial i followed  https://www.instructables.com/Raspberry-Pi-Launch-Python-script-on-startup/
+  </p>
+
