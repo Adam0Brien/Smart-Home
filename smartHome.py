@@ -24,7 +24,7 @@ GPIO_PIN = 4
 GPIO.setup(GPIO_PIN, GPIO.OUT)
 
 
-lightURL =    'https://api.thingspeak.com/update?api_key=08KLEMNHHRDEECV9&field2='
+lightURL ='https://api.thingspeak.com/update?api_key=08KLEMNHHRDEECV9&field2='
 tempURL = 'https://api.thingspeak.com/update?api_key=08KLEMNHHRDEECV9&field1='
 doorURL = 'https://api.thingspeak.com/update?api_key=08KLEMNHHRDEECV9&field3='
 
