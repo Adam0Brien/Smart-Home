@@ -17,3 +17,19 @@ IoT-Standards-and-protocols project
 
 
 
+
+#Recources i Used
+
+
+
+
+<a class ="item" target="_blank"  href="https://tutors-svelte.netlify.app/#/course/project2-2021.netlify.app"> Project 2 notes</p>
+
+
+
+<a class ="item" target="_blank"  href="https://tutors-svelte.netlify.app/#/course/iot-protocols-2022.netlify.app"> IoT Standards and Protocols notes</p>
+
+
+
+
+
